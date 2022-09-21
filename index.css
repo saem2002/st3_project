@@ -1,0 +1,279 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  padding-top: 20px;
+  overflow-x: hidden;
+  background: url("https://images.unsplash.com/photo-1505506874110-6a7a69069a08?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80");
+}
+
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  color: rgb(123, 176, 237);
+  text-transform: uppercase;
+  font-size: 30px;
+  text-align: center;
+}
+
+
+.weight-first,
+h4 {
+  font-family: 'Roboto', sans-serif;
+  color: rgb(231, 235, 239);
+  font-size: 25px;
+  text-align: center;
+}
+
+
+.kg {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+.row .inp {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  height: 20px;
+  width: 250px;
+}
+
+#hellohowareyou {
+  border-radius: 6px;
+}
+
+.planetname {
+  width: 1105px;
+  margin: 0 auto;
+}
+
+.planetname li {
+  margin-top: 30px;
+  margin-bottom: 0px;
+  margin-right: 25px;
+  margin-left: 20px;
+  display: inline-block;
+}
+
+.planetname li a {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
+
+}
+.planetname li a:hover {
+  color: #82c7c7;
+}
+
+#root 
+  {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+  }
+
+
+
+.solar {
+  height: 200px;
+  width: 550px;
+  margin: 100px auto;
+
+}
+
+.sun {
+  width: 40px;
+  height: 40px;
+  background: -webkit-linear-gradient(left, #fefc 0%, #f1da36 100%);
+  position: absolute;
+  margin-top: 230px;
+  margin-left: 230px;
+  border-radius: 50%;
+  animation: rotation 2s linear infinite;
+}
+
+
+
+.mercurybox {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  border: 1px solid #30374D;
+  animation: rotation 5s linear infinite;
+  position: absolute;
+  margin-top: 210px;
+  margin-left: 210px;
+}
+
+.mercury {
+  width: 10px;
+  height: 10px;
+  background-color: gray;
+  border-radius: 50%;
+  margin-top: 7px;
+  margin-left: 7px;
+}
+
+.venusbox {
+  height: 130px;
+  width: 130px;
+  border-radius: 50%;
+  border: 1px solid #30374D;
+  animation: rotation 5s linear infinite;
+  position: absolute;
+  margin-top: 185px;
+  margin-left: 185px
+}
+
+.venus {
+  width: 15px;
+  height: 15px;
+  background-color: #C4640D;
+  border-radius: 50%;
+  margin-top: 12px;
+  margin-left: 12px;
+}
+
+
+
+.earthbox {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border: 1px solid #30374D;
+  animation: rotation 10s linear infinite;
+  position: absolute;
+  margin-top: 150px;
+  margin-left: 150px
+}
+
+.earth {
+  width: 10px;
+  height: 10px;
+  background-color: #2D4563;
+  border-radius: 50%;
+  margin-top: 24px;
+  margin-left: 24px;
+  position: absolute;
+}
+
+
+.marsbox {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  border: 1px solid #30374D;
+  animation: rotation 15s linear infinite;
+  position: absolute;
+  margin-top: 125px;
+  margin-left: 125px;
+}
+
+.mars {
+  width: 8px;
+  height: 8px;
+  background-color: #91554C;
+  border-radius: 50%;
+  margin-top: 32px;
+  margin-left: 32px;
+}
+
+.jupiterbox {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  border: 1px solid #30374D;
+  animation: rotation 20s linear infinite;
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
+.jupiter {
+  width: 20px;
+  height: 20px;
+  background-color: #af460f;
+  border-radius: 50%;
+  margin-top: 33px;
+  margin-left: 33px;
+}
+
+.saturnbox {
+  height: 350px;
+  width: 350px;
+  border-radius: 50%;
+  border: 1px solid #30374D;
+  animation: rotation 25s linear infinite;
+  position: absolute;
+  margin-top: 75px;
+  margin-left: 75px;
+}
+
+.saturn {
+  width: 10px;
+  height: 10px;
+  background-color: #F0DFC2;
+  border-radius: 50%;
+  margin-top: 46px;
+  margin-left: 46px;
+}
+
+.uranusbox {
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  border: 1px solid #30374D;
+  animation: rotation 30s linear infinite;
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.uranus {
+  width: 8px;
+  height: 8px;
+  background-color: #0297C2;
+  border-radius: 50%;
+  margin-top: 54px;
+  margin-left: 54px;
+}
+
+.neptunebox {
+  height: 450px;
+  width: 450px;
+  border-radius: 50%;
+  border: 1px solid #30374D;
+  animation: rotation 40s linear infinite;
+  position: absolute;
+  margin-top: 25px;
+  margin-left: 25px;
+}
+
+.neptune {
+  width: 8px;
+  height: 8px;
+  background-color: #265793;
+  border-radius: 50%;
+  margin-top: 61px;
+  margin-left: 61px;
+}
+
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+
+  }
+
+  100% {
+    transform: rotate(360deg);
+
+  }
+}
